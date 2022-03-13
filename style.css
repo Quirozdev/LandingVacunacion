@@ -1,0 +1,354 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fafbfe;
+}
+
+footer {
+    background-color: #eef3ff;
+}
+
+.contenedor-pie-pagina {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.lista-pie-pagina > li {
+    padding-top: 15px;
+}
+
+.titulo-sin-mucha-separacion-vertical {
+    color: #224074;
+    margin-bottom: 2px;
+}
+
+.lista-pie-pagina {
+    list-style: none;
+    margin: 0px;
+    padding-inline-start: 0px;
+}
+
+.liga-pie-pagina {
+    color: #717e97;
+    text-decoration: none;
+}
+
+.imagenes-personalizadas {
+    width: 600px;
+}
+
+.contenedor-ultima-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.titulo {
+    color: #3657d4;
+}
+
+#contenedor {
+    display: flex;
+    justify-content: space-around;
+}
+
+.seccion-info {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    color: #224074;
+    margin-bottom: 200px;
+}
+
+.parrafo-info  {
+    color: #6d7b93;
+    font-weight: 500;
+
+}
+
+.parrafo-info-azul {
+    color: #3657d4;
+    font-weight: bold;
+}
+
+.caracteristicas {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+}
+
+.texto-despues-icono {
+    display: flex;
+    align-items: center;
+    margin: 15px 20px 15px 0px;
+}
+
+.texto-despues-icono > * {
+    display: inline;
+}
+
+.texto-despues-icono > p {
+    padding-left: 8px;
+}
+
+.pegaditos {
+    justify-content: flex-start;
+}
+
+.pegaditos p {
+    margin-left: 10px;
+}
+
+.contenedor-informacion {
+    display: inline-block;
+    position: relative;
+    width: 50%;
+    left: 0px;
+    margin-left: 50px;
+}
+
+
+
+.separacion-izquierda {
+    padding-left: 15px;
+}
+
+
+.contenedor-informacion-derecha {
+    display: inline-block;
+    position: absolute;
+    width: 35%;
+    right: 0px;
+}
+
+.contenedor-tarjetas-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tarjeta-info {
+    border: #fefeff 2px solid;
+    border-radius: 5%;
+    width: 15%;
+    height: 250px;
+    padding: 15px;
+}
+
+.contenedor-tarjetas-recomendacion {
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hidden-info {
+    display: none;
+}
+
+.tarjeta-info:hover {
+    box-shadow: 5px 5px 50px grey;
+}
+
+.resaltado {
+    border: #fefeff 2px solid;
+    border-radius: 5%;
+}
+
+.resaltado:hover {
+    box-shadow: 5px 5px 50px grey;
+}
+
+.contenedor-opciones {
+    display: inline-grid;  
+    width: 50%;  
+    gap: 25px;
+    position: absolute;
+    left: 40px;
+    bottom: 0px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+
+.seccion-opciones {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    color: #224074;
+    padding-bottom: 100px;
+}
+
+.opcion {
+    position: relative;
+    padding: 35px;
+    height: 100px;
+}
+
+.opcion > * {
+    position: absolute;
+}
+
+.opcion > h3{
+    top: 0px;
+    left: 100px;
+    font-size: 18px;
+}
+
+.opcion > p {
+    top: 30px;
+    left: 100px;
+    font-size: 15px;
+}
+
+.opcion > button {
+    top: 100px;
+    left: 35px;
+}
+
+.opcion > img {
+    left: 0px;
+    top: 0px;
+}
+
+.parrafo-info-pequenio {
+    font-size: 16px;
+}
+
+.titulo-info-pequenio {
+    font-size: 20px;
+}
+
+.titulo-opcion {
+    font-weight: 0;
+}
+
+.contenedor-icono {
+    width: 10%;
+    background-color: #f0f5fe;
+    z-index: 6;
+    border-radius: 5%;
+    border: #fefeff 2px solid;
+}
+
+.imagen-pegada-borde {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+}
+
+.imagen-pegada-borde-izquierdo {
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+}
+
+.fondo-azul {
+    display: inline-block;
+    position: absolute;
+    background-color: #0159cb;
+    width: 100%;
+    height: 300px;
+    left: 0px;
+    bottom: 0px;
+    z-index: -6;
+}
+
+.submit-info {
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    border: #fefeff 2px solid;
+    background-color: rgba(231,243,253,0.50);
+    border-radius: 5%;
+    padding: 6px 10px 6px 10px;
+    box-shadow: 20px 20px 50px grey;
+    z-index: 3;
+}
+
+.patrocinadores {
+    display: flex;
+    margin: 50px;
+    color: #dfe4fa;
+    font-size: 32px;
+    justify-content: space-around;
+}
+
+.centrado {
+    display: flex;
+    align-items: center;
+}
+
+.sino-bold {
+    font-weight: bold;
+}
+
+.parrafo-punteado {
+    text-decoration: underline;
+    text-decoration-style: dashed;
+}
+
+.info-block {
+    width: 33%;
+}
+
+
+nav {
+    width: 50%;
+}
+
+.menu {
+    margin: 15px;
+    padding: 10px;
+    height: 35px;
+}
+
+.menu li {
+    display: inline;
+}
+
+.liga {
+    font-size: 14px;
+    font-style: none;
+    font-weight: bold;
+    color: gray;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.liga:hover {
+    background-color: aqua;
+}
+
+.boton-azul {
+    background-color: #2a4ac8;
+    height: 40px;
+    width: 120px;
+    border-radius: 5%;
+    color: #fbfbfa;
+    border: none;
+}
+
+
+.boton-gris {
+    background-color: #f1f4fe;
+    color: #2a4ac8;
+    height: 40px;
+    width: 120px;
+    border-radius: 5%;
+    border: none;
+}
+
+.boton-gris:hover {
+    background-color: #2a4ac8;
+    color: #f1f4fe;
+}
+
+
+.iconos-personalizados {
+    width: 21px;
+    height: 21px;
+}
+
+
+
